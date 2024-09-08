@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 35px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header .mid .right {
+    color: rgb(255, 255, 0);
+    font-weight: 400;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 31px;
+    top: 37px;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 78%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    padding: 10px 25px 10px 25px;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:rgb(255, 255, 0);
+    ;
+}
+
+.right button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: inline;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color:rgb(255, 255, 0);
+    border: 1px;
+    border-color: aliceblue;
+}
+.maincontent h2{
+    text-align: center;
+    font-size: 50px;
+    margin:50px;
+}
+.maincontent .box{
+width:90%;
+font-size: 30px;
+border: 2px solid;
+border-radius:30px;
+text-align:center;
+margin:30px;
+
+
+}
+.maincontent h3{
+    padding:20px 0px;
+
+}
+.box button{
+    margin: 50px;
+    padding: 20px 200px;
+    border-radius: 50px;
+
+}.box button:hover{
+    background-color: rgb(255, 255, 0);
+    cursor:pointer;
+}
+.box button a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#000;
+}
+.box li{
+    padding:20px;
+    text-align: left;
+    list-style: none;
+
+}

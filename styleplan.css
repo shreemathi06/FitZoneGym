@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #000;
+    font-family: "lato", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 35px;
+}
+
+.header .mid .right {
+    color: rgb(255, 255, 0);
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 31px;
+    top: 37px;
+
+}
+
+.left img {
+    width: 35px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 78%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 38px;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    padding: 10px 25px 10px 25px;
+
+
+}
+
+.right .btn:hover {
+    cursor: pointer;
+    background-color:rgb(255, 255, 0)
+}
+
+.right button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: inline;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    opacity: 90%;
+    padding: 25px 25px;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color:rgb(255, 255, 0);
+    border: 1px;
+    border-color: aliceblue;
+}
+main{
+    margin:20px 0px;
+
+}
+ p h1{
+padding:10px;
+align-items: center;
+}
+.maincontent {
+    display: grid;
+    border: 1px solid white ;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 50px;
+    width:90%;
+    border-radius:10px ;
+    padding:50px;
+}
+
+.box {
+    list-style: circle;
+    text-align: left;
+    padding:40px,0px;
+
+}
+.box h2{
+    padding:20px,0px;
+}
+.box button{
+    margin: 25px 0px;
+    padding: 20px 180px;
+    border-radius: 50px;
+
+}.box button:hover{
+    background-color: rgb(255, 255, 0);
+    cursor:pointer;
+}
+.box button a{
+    text-decoration:none;
+    font-weight: bold;
+    color:#000;
+}
